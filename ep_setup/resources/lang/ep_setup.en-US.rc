@@ -5,10 +5,10 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 STRINGTABLE
 BEGIN
-    IDS_SETUP_UNINSTALL_PROMPT  "Are you sure you want to remove ExplorerPatcher from your PC?"
-    IDS_SETUP_INSTALL_LOGOFF    "In order to install, you will be automatically signed out of Windows. ExplorerPatcher will be ready for use when you sign back in.\n\nDo you want to continue?"
-    IDS_SETUP_UNINSTALL_LOGOFF  "To complete the uninstallation, you will be automatically signed out of Windows.\n\nDo you want to continue?"
-    IDS_SETUP_UNINSTALL_RESTART "Please reboot the PC to complete the uninstall.\n\nDo you want to reboot now?"
-    IDS_SETUP_UNINSTALL_FINISH  "Uninstall completed. Thank you for using ExplorerPatcher."
-    IDS_SETUP_FAILED            "An error has occurred while servicing ExplorerPatcher.\nThis is most likely caused by one or more of the backup files from a previous update still being in use. Unlocking the files should fix this issue.\n\nTroubleshooting steps:\n• Close and reopen the ""Properties"" dialog if it is currently open.\n• Kill and restart all ""explorer.exe"" processes.\n• If you have registered ExplorerPatcher as a shell extension, then restarting the PC will probably fix this.\n• Lastly, reboot the PC and try again."
+    IDS_SETUP_UNINSTALL_PROMPT "PC에서 ExplorerPatcher를 제거하시겠습니까?"
+    IDS_SETUP_INSTALL_LOGOFF "설치하려면 Windows에서 자동으로 로그아웃됩니다. 다시 로그인하면 ExplorerPatcher를 사용할 수 있습니다.\n\n계속하시겠습니까?"
+    IDS_SETUP_UNINSTALL_LOGOFF "제거를 완료하려면 Windows에서 자동으로 로그아웃됩니다.\n\n계속하시겠습니까?"
+    IDS_SETUP_UNINSTALL_RESTART "제거를 완료하려면 PC를 재부팅하십시오.\n\n지금 재부팅하시겠습니까?"
+    IDS_SETUP_UNINSTALL_FINISH "제거가 완료되었습니다. ExplorerPatcher를 사용해 주셔서 감사합니다."
+    IDS_SETUP_FAILED "ExplorerPatcher를 서비스하는 동안 오류가 발생했습니다.\n이는 이전 업데이트의 백업 파일 중 하나 이상이 아직 사용 중이기 때문에 발생했을 가능성이 높습니다. 파일을 잠금 해제하면 이 문제가 해결됩니다.\n\n문제 해결 단계:\n• 현재 열려 있는 경우 ""속성"" 대화 상자를 닫았다가 다시 엽니다.\n• 모든 ""explorer.exe"" 프로세스를 종료하고 다시 시작합니다.\n• ExplorerPatcher를 셸 확장으로 등록한 경우 PC를 다시 시작하면 아마도 이 문제가 해결될 것입니다.\n• 마지막으로 PC를 재부팅하고 다시 시도해 보세요."
 END
